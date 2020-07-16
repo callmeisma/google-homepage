@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background: #fff;
+    color: #222;
+    font-size: small;
+}    
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: block;
+    text-align: center;
+}
+
+.logo {
+    padding: 109px 0 30px 0;
+}
+
+.search-bar {
+    margin: auto;
+    width: 580px;
+    height: 33px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    display: flex;
+}
+
+.search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+input {
+    border: none;
+    flex-grow: 2;
+}
+
+input:focus {
+    outline: none;
+}
+    
+.mag {
+    position: relative;
+    width: 15px;
+    padding: 0 10px 0 15px;
+
+}
+
+.mic {
+    position: relative;
+    width: 15px;
+    padding-right: 5px;
+}
+
+.btns {
+    padding-top: 20px;
+}
+
+.fun-btns {
+    padding: 10px;
+    border: solid 1px;
+    border-color: white;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+}
+
+.fun-btns:hover {
+    cursor: pointer;
+}
+.fun-btns:focus {
+    outline: none;
+}
+
+.fun-btns:active {
+    border: 1px solid lightblue;
+}
+
+.sign-btns {
+    background-color: lightblue;
+    border: solid 1px;
+    border-color: white;
+    padding: 5px;
+}
+
+.sign-btns:focus {
+    outline: none;
+}
+
+.sign-btns:active {
+    border: 1px solid blue;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: lightgray;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
